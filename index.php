@@ -15,9 +15,9 @@
                 <div class="col-12 index">
                     <h1>Авторизуйтесь!</h1>
                 <?php
-                if (!isset($_COOKIE\['User'\])) {
+                if (!isset($_COOKIE['User'])) {
                     ?>
-                        <a href="/registration.php">Зарегистрируйтесь</a> или <a href="/login.php">войдите</a>, чтобы просматривать контент!
+                        <a href="/registration.php">Зарегистрируйтесь</a> или <a href="/login.php">войдите</a>, чтобы просматривать контент!</a>
                     <?php
                     } else {
                         // подключение к БД
